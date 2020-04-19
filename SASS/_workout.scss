@@ -1,0 +1,65 @@
+$primaryColor: white;
+$secondaryColor: #2f283d;
+
+#workout-list {
+  position: absolute;
+  right: 35.8%;
+  transition: right 2s ease;
+  list-style-type: none;
+  margin-top: 50px;
+  .workout {
+    transition: ease-in-out 0.5s;
+    width: 400px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $primaryColor;
+    border: $primaryColor 2px solid;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 75px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    &:hover {
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+      &.workout img {
+        border: $secondaryColor 2px solid;
+      }
+    }
+  }
+  .workout img {
+    width: 100px;
+    height: 100px;
+    border: $primaryColor 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    transition: border-color 1s ease;
+  }
+  .workout-title {
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    width: 270px;
+  }
+  #text {
+    text-align: center;
+    width: 404px;
+    height: 100%;
+    border-radius: 22px;
+    transition: color 1s, background-color 1s;
+    &:hover {
+      background-color: $primaryColor;
+      color: $secondaryColor;
+    }
+    .reps {
+      width: 270px;
+      margin-bottom: 8px;
+    }
+    .description {
+      width: 230px;
+      font-size: 10px;
+      margin-left: 13px;
+    }
+  }
+}
