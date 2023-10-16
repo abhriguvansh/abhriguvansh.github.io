@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#carouselDiv {
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+.text-center {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

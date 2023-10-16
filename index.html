@@ -1,20 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websites On Demand Inc.</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="./SASS/main.css" />
-    <title>WorkoutWeb</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body id="body">
-    <h1 id="greeting">Welcome!</h1>
-    <h2 id="routine-message">Heres The Routine For Today:</h2>
-    <script src="./JavaScript/date-en-US.js"></script>
-    <script src="./JavaScript/home.js"></script>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Website On Demand Inc.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-md col-8" id="carouselDiv">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://media.istockphoto.com/id/1203803529/vector/stock-market-bubble-or-growth.jpg?s=612x612&w=0&k=20&c=qIuPLkH5NDzQOfuQWkwbmbP0HYKXyDwqEoYtrcGjGAs="
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Growth</h5>
+              <p>We can drive traffic to your website with SEO.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://t3.ftcdn.net/jpg/00/84/93/10/360_F_84931086_r5YIaUmwGJJHNFWmBFaufKL0CCXNhmFO.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Location</h5>
+              <p>We have developers around the world ready to help.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/03/48/21/70/1000_F_348217023_c2ErjZFt1U4hFlVrySq8fVRySMQi0CBT.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Collaborate</h5>
+              <p>
+                We combine marketing consultants, developers, and managers to
+                give you the best experience possible.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://t4.ftcdn.net/jpg/02/19/63/31/360_F_219633151_BW6TD8D1EA9OqZu4JgdmeJGg4JBaiAHj.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Joseph, Baked Goods LLC</h5>
+              <p class="card-text">
+                Setup was quick and easy. I would recommend working with
+                Websites On Demand Inc. to anyone looking for a website
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary"
+                >See their website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://thumbs.dreamstime.com/b/headshot-african-american-male-glasses-posing-studio-portrait-smiling-man-wearing-casual-clothes-look-camera-image-153874435.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">John, Ancient Medical</h5>
+              <p class="card-text">
+                We had a lot of requirements and Websites On Demand Inc. was
+                able to fulfill all of them in a timely manner.
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary"
+                >See their website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://media.istockphoto.com/id/1352025984/photo/headshot-of-cheerful-young-businessman.jpg?s=1024x1024&w=is&k=20&c=1Kc4RbHoUYg3FaV5YlrBBhocIkpFbRLkRIkBn2XSEF0="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Michael, FutureWatch</h5>
+              <p class="card-text">
+                COVID hit our financials hard. I'm glad Websites On Demand Inc.
+                had multiple payment options that suited our situation.
+              </p>
+              <a href="https://www.google.com" class="btn btn-primary"
+                >See their website</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <a type="button" href = "contactus.html" class="btn btn-primary btn-lg">
+        Interested in our services?
+      </button>
+    </div>
   </body>
 </html>

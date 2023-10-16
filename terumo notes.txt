@@ -1,0 +1,10 @@
+Create project
+
+- dont need react although I like using it, this website is very simple and does not need extra boilerplate
+
+- I can download a templated home page but that does not reflect my knowledge (auto completes media queries, styling, etc...)
+
+- i can use css bootstrap to accelerate component development. This would be a good idea since I am creating a simple webpage to advertise services and will probably not make many changes in the future. You also mentioned you used bootstrap so this would be a good chance to show I am capable of integrating it
+
+- include contact us form to have some javascript present in project
+
