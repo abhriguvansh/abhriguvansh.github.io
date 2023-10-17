@@ -34,4 +34,10 @@ body {
   margin: 3rem 0rem;
   display: flex;
   justify-content: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
 }/*# sourceMappingURL=main.css.map */
